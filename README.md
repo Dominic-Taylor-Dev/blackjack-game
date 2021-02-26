@@ -12,7 +12,7 @@ This is a very simple, one-file game, intended to be played from the command lin
 
 <h2> How to Play </h2>
 
-
+Rules are the same as normal BlackJack except that aces have a fixed value of 11, rather than being optionally 1 or 11. This was for coding simplicity more than anything else...!
 
 <h2> How the code is structured </h2>
 
