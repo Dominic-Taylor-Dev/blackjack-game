@@ -12,7 +12,9 @@ This is a very simple, one-file game, intended to be played from the command lin
 
 <h2> How to Play </h2>
 
-Rules are the same as normal BlackJack except that aces have a fixed value of 11, rather than being optionally 1 or 11. This was for coding simplicity more than anything else...!
+You only have two options: hit or stick. Follow the onscreen instructions - the game will end when you either choose to stick at your current score, or when you go bust (i.e. you amass over 21 points).
+
+Rules are the same as normal Blackjack except that aces have a fixed value of 11, rather than being optionally 1 or 11. This was for coding simplicity more than anything else...!
 
 <h2> How the code is structured </h2>
 
