@@ -49,10 +49,6 @@ def dealer_score_calc
   return possible_scores[rand(7)]
 end
 
-####################
-##MAIN GAME#########
-####################
-
 def run_game
   
   dealer_score = dealer_score_calc
@@ -65,7 +61,7 @@ def run_game
       puts "You busted with: "+ player_score.to_s
       puts "Your final hand: "+ player_hand.join("")
       puts "Dealer scored: "+ dealer_score.to_s
-      puts "DEALER WINS!"
+      puts "DEALER WINS! 😢😢😢"
       break
     elsif move == "stick" 
       puts "----------------"
@@ -73,9 +69,9 @@ def run_game
       puts "Your final hand: " + player_hand.join("")
       puts "Dealer scored: "+ dealer_score.to_s
         if dealer_score > player_score
-          puts "DEALER WINS!"
+          puts "DEALER WINS! 😢😢😢"
         elsif dealer_score < player_score
-          puts "YOU WIN!"
+          puts "YOU WIN! 🎉🎉🎉"
         else
           puts "IT'S A TIE"
         end
@@ -84,12 +80,16 @@ def run_game
       player_hand.push(random_card)
       player_score = score(player_hand)
       puts "----------------"
-      puts "Score so far: "+ player_score.to_s
-      puts "Hand so far: " + player_hand.join("")
+      puts "Hand so far (score " + player_score.to_s + "):"
+      puts player_hand.join("")
       puts "----------------"
     end
   end
 end
+
+puts "----------------"
+puts "Welcome to Command Line Blackjack. The rules are broadly the same as standard Blackjack, but please note aces are not of variable value - they are fixed at '1'"
+puts "----------------"
 
 run_game
 

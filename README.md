@@ -14,7 +14,7 @@ This is a very simple, one-file game - less than 100 lines all in - created in R
 
 You only have two options: 'hit' or 'stick'. Follow the onscreen instructions - the game will end when you either choose to stick at your current score, or when you go bust (i.e. if you have over 21 points).
 
-Rules are the same as normal Blackjack except that aces have a fixed value of 11, rather than being optionally 1 or 11. This was for coding simplicity more than anything else although I may revisit that at some point. It'd just be a bit of extra logic to say broadly "aces are 11 by default but if there are aces in the hand, and random card push to player hand array would result in bust, recalculate hand value with ace as 1". There would be an edge case of muliple aces, which that wouldn't cover, but I suspect I will never implement the feature anyway, as that wasn't the point of this program.
+Rules are the same as normal Blackjack except that aces have a fixed value of 1, rather than being optionally 1 or 11. This was for coding simplicity more than anything else although I may revisit that at some point. It'd just be a bit of extra logic to say broadly "aces are 11 by default but if there are aces in the hand, and random card push to player hand array would result in bust, recalculate hand value with ace as 1". There would be an edge case of muliple aces, which that wouldn't cover, but I suspect I will never implement the feature anyway, as that wasn't the point of this program.
 
 <h2> How the code is structured </h2>
 
