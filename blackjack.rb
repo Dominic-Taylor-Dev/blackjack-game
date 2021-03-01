@@ -71,7 +71,7 @@ def run_game
         if dealer_score > player_score
           puts "DEALER WINS! 😢😢😢"
         elsif dealer_score < player_score
-          puts "YOU WIN! 🎉🎉🎉"
+          puts "YOU WIN! 🏆🏆🏆"
         else
           puts "IT'S A TIE"
         end
