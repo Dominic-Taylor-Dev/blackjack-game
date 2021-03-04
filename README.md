@@ -28,14 +28,16 @@ There are five methods:
 <h2> Taking this further </h2>
 
 To take this further, I would consider either fancier visuals in the command line, e.g. by drawing out individual cards across multiple lines like so:
-
-+---------+
-| 7♠      |
-|         |
-|    ♠    |
-|         |
-|      7♠ |
-+---------+
+<pre>
+<code>
++---------+ <br />
+|-7♠------| <br />
+|---------| <br />
+|----♠----| <br />
+|---------| <br />
+|------7♠-| <br />
++---------+ <br />
 7 of spades
-
-I would also consider trying to use the same sort of logic but with some kind of GUI.
+</code>
+</pre>
+I would also consider trying to use the same sort of logic but with some kind of 'proper' GUI.
