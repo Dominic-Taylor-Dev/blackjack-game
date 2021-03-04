@@ -24,3 +24,18 @@ There are five methods:
 3. score: Translates the string of the card into a numberical value (suit doesn't matter, even though it's stored more generally).
 4. dealer_score_calc: I kept it simple, but basically this is a very rough approximation of likely dealer scores i.e. 2/7 chance of bust and 1/7 chance of any score from 17-21.
 5. run_game: the loop which pulls in all the other methods and sets win/loss/break conditions.
+
+<h2> Taking this further </h2>
+
+To take this further, I would consider either fancier visuals in the command line, e.g. by drawing out individual cards across multiple lines like so:
+
++---------+
+| 7♠      |
+|         |
+|    ♠    |
+|         |
+|      7♠ |
++---------+
+7 of spades
+
+I would also consider trying to use the same sort of logic but with some kind of GUI.
