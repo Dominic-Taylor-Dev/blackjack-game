@@ -40,4 +40,4 @@ To take this further, I would consider either fancier visuals in the command lin
 7 of spades
 </code>
 </pre>
-I would also consider trying to use the same sort of logic but with some kind of 'proper' GUI.
+I would also consider trying to use the same sort of logic but with some kind of 'proper' GUI outside of the terminal.
